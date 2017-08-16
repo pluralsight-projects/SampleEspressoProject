@@ -23,6 +23,16 @@ Add the following to the app's build.gradle file:
     androidTestCompile 'com.android.support.test:rules:0.5'
     androidTestCompile 'com.android.support.test:runner:0.5'
 ```
+Alternatively, just add 
+```XML
+    androidTestCompile 'com.android.support.test.espresso:espresso-intents:2.2.2'
+    androidTestCompile 'com.android.support:support-annotations:25.3.0'
+```
+Where the above support annotations version matches the support version, such as:
+`compile 'com.android.support:appcompat-v7:25.3.0'`
+    
+If this is already there: 
+    `androidTestCompile 'com.android.support.test.espresso:espresso-core:2.2.2'`
 
 2 Passing Tests, 2 Failing Tests
 --
